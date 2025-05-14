@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class largestNumberArray {
     public static void main(String[] args)
 
@@ -9,20 +10,17 @@ public class largestNumberArray {
         int smallest = numbers[0];
 
         for (int i = 0; i < numbers.length; i++) {
-            if(numbers[i]>largest){
-                largest=numbers[i];
-            }
-            else if(numbers[i]<smallest)
-            {
+            if (numbers[i] > largest) {
+                largest = numbers[i];
+            } else if (numbers[i] < smallest) {
 
             }
 
         }
-          System.out.println( "array given"+Arrays.toString(numbers));
-    System.out.println(largest);
-    System.out.println(smallest);
+        System.out.println("\n array given" + Arrays.toString(numbers));
+        System.out.println(largest);
+        System.out.println(smallest);
 
     }
-  
 
 }
